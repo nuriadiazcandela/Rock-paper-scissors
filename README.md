@@ -5,7 +5,7 @@ Inspirado en el juego javascript freecodecamp rock paper scissor. Siguiendo el t
 
 Dándole al botón de "A jugar!", comenzará la partida. 
 Clickando uno de los tres botones, piedra, papel o tijeras, hará la jugada y si ganas, sumará un punto a tu marcador, de lo contrario, se sumará el punto tu adversario. 
-<a href="">Link</a>
+<a href="https://nuriadiazcandela.github.io/Rock-paper-scissors/">Link</a>
 
 
 ---
