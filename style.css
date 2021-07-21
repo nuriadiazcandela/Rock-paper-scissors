@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  height: 100vh;
+  background-color: #cf9eac;
+  font-family: 'Zen Tokyo Zoo', cursive;
+}
+.player-hand,
+.computer-hand {
+  width: 150px;
+}
+.computer-hand {
+  transform: rotateY(180deg);
+}
+.score {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 50px 50px 30px 50px;
+}
+.player-score p,
+.computer-score p {
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-top: 5px;
+}
+.intro {
+  text-align: center;
+  color: #8787b6;
+}
+.intro button {
+  margin: 20px;
+}
+.match {
+  text-align: center;
+}
+button {
+  padding: 8px;
+  border-radius: 20px;
+  background-color: #b390b2;
+  border: 1px solid #8787b6;
+  text-transform: capitalize;
+}
+.options {
+  margin-top: 20px;
+}
+.options button {
+  margin-left: 5px;
+}
+div.fadeOut {
+  display: none;
+  pointer-events: none;
+}
+
+div.fadeIn {
+  display: inline;
+  pointer-events: all;
+}
+@media (min-width: 1200px) {
+  .score {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 150px;
+  }
+  .hands {
+    padding: 50px;
+  }
+  button {
+    font-size: 25px;
+    padding: 15px;
+  }
+  h2,
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 25px;
+  }
+}
