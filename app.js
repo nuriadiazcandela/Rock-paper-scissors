@@ -27,8 +27,8 @@ const game = () => {
 
         compareHands(this.textContent, computerChoise);
 
-        playerHand.src = `/assets/${this.textContent}.png`;
-        computerHand.src = `/assets/${computerChoise}.png`;
+        playerHand.src = `./assets/${this.textContent}.png`;
+        computerHand.src = `./assets/${computerChoise}.png`;
       });
     });
   };
@@ -46,7 +46,7 @@ const game = () => {
       winner.textContent = 'Empate!';
       return;
     }
-    //Check for Rock
+    //Check for Piedra
     if (playerChoice === 'piedra') {
       if (computerChoise === 'tijeras') {
         winner.textContent = 'Tú ganas!';
@@ -60,7 +60,7 @@ const game = () => {
         return;
       }
     }
-    //Check for Paper
+    //Check for Papel
     if (playerChoice === 'papel') {
       if (computerChoise === 'tijeras') {
         winner.textContent = 'Oooh! Inténtalo otra vez!';
